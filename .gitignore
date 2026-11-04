@@ -1,0 +1,13 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Personal interview notes, not part of the submission
+Interview-Guide.docx
+Code-Walkthrough.docx
+Project-Explained.docx

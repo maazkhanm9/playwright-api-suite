@@ -1,0 +1,22 @@
+{
+  "name": "reservation-hub-api-tests",
+  "version": "1.0.0",
+  "description": "Automated API regression suite for the Restful-booker Bookings API",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:critical": "playwright test --grep @critical",
+    "report": "playwright show-report reports/html",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "ajv": "^8.20.0",
+    "typescript": "^7.0.2"
+  }
+}
